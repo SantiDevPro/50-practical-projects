@@ -23,7 +23,8 @@ body {
   height: 0;
   flex-grow: 1;
   border-radius: 20px;
-  filter: grayscale(0.5);
+  filter: contrast(120%);
+  opacity: 0.4;
   overflow: hidden;
   transition: all 1s;
   cursor: pointer;
@@ -35,7 +36,8 @@ body {
 
 .item-card:hover {
   flex-grow: 8;
-  filter: grayscale(0);
+  filter: contrast(100%);
+  opacity: 1;
 }
 
 @media screen and (min-width: 600px) {
