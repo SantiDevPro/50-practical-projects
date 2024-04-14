@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.bg {
+  width: 100dvw;
+  height: 100dvh;
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(0);
+}
+
+.loading-text {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  z-index: 10;
+  color: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  user-select: none;
+}

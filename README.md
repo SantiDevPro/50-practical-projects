@@ -6,4 +6,4 @@
 | 02  | Barra de Progreso        |
 | 03  | Navegación Giratoria     |
 | 04  | Barra de Búsqueda Oculta |
-| 05  | Cargando Borrosa         |
+| 05  | Carga Borrosa            |
